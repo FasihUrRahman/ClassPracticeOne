@@ -56,5 +56,5 @@ Console.WriteLine(" Islamic     |   " + islamicStudies + "                |   " 
 Console.WriteLine(" PakStudies  |   " + pakStudies + "                |   " + p);
 Console.WriteLine("__________________________________");
 Console.WriteLine(" TotalMarks  |   " + sumOfAllSubjects + "               |   " + s);
-Console.WriteLine("Press Any Key To exit....");
+Console.Write("Press Any Key To exit....");
 Console.ReadKey();
