@@ -45,14 +45,6 @@ if (english > 30 && urdu > 30 && islamicStudies > 30 && pakStudies > 30)
 {
     s = "P";
 }
-else if (urdu > 30 && islamicStudies > 30 && pakStudies > 30)
-{
-    s = "P*";
-}
-else if(islamicStudies > 30 && pakStudies > 30) 
-{
-    s = "P**"; 
-}
 else{
     s = "F";
 }
