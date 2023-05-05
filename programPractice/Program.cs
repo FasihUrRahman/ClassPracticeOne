@@ -1,16 +1,25 @@
-﻿float weightInput, weightOutputInPond, weightOutputInMiligram, weightOutputInGram, weightOutputInKilogram, weightOutputInTonne;
+﻿using System.Xml.Linq;
+
+float weightInput, weightOutputInPond, weightOutputInMiligram, weightOutputInGram, weightOutputInKilogram, weightOutputInTonne;
 decimal weightOutputInTonneDecimal;
 string weightSelectionValue, continueCode;
+dynamic weightInputDynamic;
 char weightSelection;
 do
 {
-    Console.Write("Enter The Weight:");
-    weightInput = Convert.ToSingle(Console.ReadLine());
-    if (weightInput != null && weightInput.GetType() == typeof(float))
+    Console.Write("Enter The Weight: ");
+    weightInputDynamic = Console.ReadLine();
+
+    while (string.IsNullOrEmpty(weightInputDynamic)) {
+        Console.WriteLine("Name can't be empty! Input your name once more: ");
+        weightInputDynamic = Console.ReadLine();
+    }
+    bool parseSuccess = float.TryParse(weightInputDynamic, out weightInput);
+    if (parseSuccess)
     {
         Console.WriteLine("Select Unit");
         Console.WriteLine("A)Pond\t B)Miligram\t C)Gram\t D)Kilogaram\t E)Tonne");
-        Console.Write("Select An Option:");
+        Console.Write("Select An Option: ");
         weightSelectionValue = Console.ReadLine();
         weightSelection = weightSelectionValue[0];
         switch (char.ToLower(Convert.ToChar(weightSelection)))
@@ -85,15 +94,17 @@ do
                 break;
         }
     }
-    else if(weightInput != null)
-    {
-        Console.Write("Bawa Number Likny kaa");
-    }
     else
     {
-        Console.Write("Bawa Koch Lik Tuo Sai");
+        Console.WriteLine("This is not a number!");
     }
+
+
+
+
+
     Console.Write("For More Conversion Hit 'y' and Enter....");
     continueCode = Console.ReadLine();
 }
+
 while (continueCode == "y");
