@@ -1,27 +1,31 @@
 ﻿using System.Xml.Linq;
-
+//Variables
 float weightInput, weightOutputInPond, weightOutputInMiligram, weightOutputInGram, weightOutputInKilogram, weightOutputInTonne;
 decimal weightOutputInTonneDecimal;
 string weightSelectionValue, continueCode;
 dynamic weightInputDynamic;
 char weightSelection;
+//Loop For Reuse
 do
 {
-    Console.Write("Enter The Weight: ");
+    Console.Write("Enter The Weight: ");    //getting input
     weightInputDynamic = Console.ReadLine();
-
+    //Loop For Empty Input
     while (string.IsNullOrEmpty(weightInputDynamic)) {
         Console.WriteLine("Name can't be empty! Input your name once more: ");
         weightInputDynamic = Console.ReadLine();
     }
-    bool parseSuccess = float.TryParse(weightInputDynamic, out weightInput);
+    bool parseSuccess = float.TryParse(weightInputDynamic, out weightInput);    //Check The Value is a Number or a Alphabatic Value and Assigning Value to weightInput
+    //Condition For Check If the Value is Number
     if (parseSuccess)
     {
         Console.WriteLine("Select Unit");
         Console.WriteLine("A)Pond\t B)Miligram\t C)Gram\t D)Kilogaram\t E)Tonne");
-        Console.Write("Select An Option: ");
+        Console.Write("Select An Option: ");    //Input For Selecting an Option
         weightSelectionValue = Console.ReadLine();
         weightSelection = weightSelectionValue[0];
+
+        //Cases According to Selection
         switch (char.ToLower(Convert.ToChar(weightSelection)))
         {
             case 'a':
@@ -96,15 +100,11 @@ do
     }
     else
     {
-        Console.WriteLine("This is not a number!");
+        Console.WriteLine("This is not a number!"); //Values If User Put An Elphabatic Value
     }
 
-
-
-
-
     Console.Write("For More Conversion Hit 'y' and Enter....");
-    continueCode = Console.ReadLine();
+    continueCode = Console.ReadLine();  //Value For ReStarting Code
 }
 
-while (continueCode == "y");
+while ((continueCode.ToLower()) == "y");
