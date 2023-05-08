@@ -1,6 +1,4 @@
-﻿//Days By Numbers
-//Pizza Flavors by Using Number
-//Project No.1 (Get Day's Name by Number)
+﻿//Project No.1 (Get Day's Name by Number)
 int inputForDayCheck;
 
 Console.Write("Enter Number To Check Day Name(1-7): ");
