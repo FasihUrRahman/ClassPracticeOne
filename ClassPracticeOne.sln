@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFELSEPRACTICE", "IFELSEPRA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeightConversion", "programPractice\WeightConversion.csproj", "{CE824718-C1DC-4EC0-96A5-B8B244CB9E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassProjectOne", "ClassProjectOne\ClassProjectOne.csproj", "{57FC95B6-B895-46AE-8D9A-3CB45E424FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassProjectOne", "ClassProjectOne\ClassProjectOne.csproj", "{57FC95B6-B895-46AE-8D9A-3CB45E424FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorPracticeProject", "CalculatorPracticeProject\CalculatorPracticeProject.csproj", "{26703A53-CE48-4433-AC29-D4BC3DF55F70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{57FC95B6-B895-46AE-8D9A-3CB45E424FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57FC95B6-B895-46AE-8D9A-3CB45E424FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57FC95B6-B895-46AE-8D9A-3CB45E424FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26703A53-CE48-4433-AC29-D4BC3DF55F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26703A53-CE48-4433-AC29-D4BC3DF55F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26703A53-CE48-4433-AC29-D4BC3DF55F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26703A53-CE48-4433-AC29-D4BC3DF55F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

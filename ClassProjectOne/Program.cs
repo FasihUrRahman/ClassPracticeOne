@@ -125,7 +125,7 @@ if (inputValueForDaySelection == 1)
     Console.WriteLine("1 - One Grapefruit\n2 - Two poached eggs\n3 - One slice wheat toast");
 }
 else if (inputValueForDaySelection == 2) {
-    Console.WriteLine("1 - One wheat muffin with 2 tablespoons peanut butter\n 2 - One orange");
+    Console.WriteLine("1 - One wheat muffin with 2 tablespoons peanut butter\n2 - One orange");
 }
 else if(inputValueForDaySelection == 3)
 {
