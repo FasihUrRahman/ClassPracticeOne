@@ -1,5 +1,5 @@
 ﻿string? inputValue,inputValue1 = null, inputValue2 = null, inputValue3 = null, inputValue4 = null;
-bool isContinue = true, isFirst = true;
+bool isContinue = true;
 int selectionToDo;
 
 while (isContinue)
