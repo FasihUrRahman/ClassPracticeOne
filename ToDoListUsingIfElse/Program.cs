@@ -127,6 +127,4 @@ while (isContinue)
             break;
     }
 }
-
-
 Console.ReadLine();
