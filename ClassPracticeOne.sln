@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorPracticeProject",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabPracticeTwo", "LabPracticeTwo\LabPracticeTwo.csproj", "{0265FC72-9990-4A7C-8904-60BBB7944456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddNumbers", "EvenOddNumbers\EvenOddNumbers.csproj", "{7DA752F1-87B4-408E-8DCD-7FD7A8147765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOddNumbers", "EvenOddNumbers\EvenOddNumbers.csproj", "{7DA752F1-87B4-408E-8DCD-7FD7A8147765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeperateOddEvenAndPrimeNumbers", "SeperateOddEvenAndPrimeNumbers\SeperateOddEvenAndPrimeNumbers.csproj", "{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeperateOddEvenAndPrimeNumbers", "SeperateOddEvenAndPrimeNumbers\SeperateOddEvenAndPrimeNumbers.csproj", "{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListUsingIfElse", "ToDoListUsingIfElse\ToDoListUsingIfElse.csproj", "{F3914AD1-3154-472C-9091-B685AABED62A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3914AD1-3154-472C-9091-B685AABED62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3914AD1-3154-472C-9091-B685AABED62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3914AD1-3154-472C-9091-B685AABED62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3914AD1-3154-472C-9091-B685AABED62A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
