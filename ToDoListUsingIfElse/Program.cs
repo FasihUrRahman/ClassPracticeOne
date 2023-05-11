@@ -63,6 +63,7 @@ while (isContinue)
             }
             break;
         case 2:
+            Console.WriteLine($"1 - {inputValue1}\n2 - {inputValue2}\n3 - {inputValue3}\n4 - {inputValue4}");
             Console.Write("Input a Number For Delete Query(1-4): ");
             inputValue = Console.ReadLine();
             switch (inputValue)
