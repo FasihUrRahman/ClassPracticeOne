@@ -17,6 +17,7 @@ while (isContinue)
             int inputValueForGiveInput;
             bool isContinue1 = true;
             Console.WriteLine("Select an option:\n1 - Input Value\n2 - back");  //Options For Input
+            Console.Write(">>");
             inputValueForGiveInput = Convert.ToInt32(Console.ReadLine());   //Input For Add Item Or Go Back
             //Loop For Add Multiple Messages
             while (isContinue1)
