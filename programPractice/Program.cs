@@ -2,12 +2,19 @@
 //Variables
 float weightInput, weightOutputInPond, weightOutputInMiligram, weightOutputInGram, weightOutputInKilogram, weightOutputInTonne;
 decimal weightOutputInTonneDecimal;
-string weightSelectionValue, continueCode;
+string weightSelectionValue;
 dynamic weightInputDynamic;
 char weightSelection;
+bool continueCode = true, isFirst = true;
 //Loop For Reuse
 do
 {
+    if (!isFirst)
+    {
+        Console.WriteLine("Enter Any Key To Continue");
+        Console.ReadKey();
+        Console.Clear();
+    }
     Console.Write("Enter The Weight: ");    //getting input
     weightInputDynamic = Console.ReadLine();
     //Loop For Empty Input
@@ -20,7 +27,7 @@ do
     if (parseSuccess)
     {
         Console.WriteLine("Select Unit");
-        Console.WriteLine("A)Pond\t B)Miligram\t C)Gram\t D)Kilogaram\t E)Tonne");
+        Console.WriteLine("A)Pond\t B)Miligram\t C)Gram\t D)Kilogaram\t E)Tonne F)Exit");
         Console.Write("Select An Option: ");    //Input For Selecting an Option
         weightSelectionValue = Console.ReadLine();
         weightSelection = weightSelectionValue[0];
@@ -93,6 +100,9 @@ do
                 Console.WriteLine($"The Weight You Entered is in Kilogram {weightOutputInKilogram}");
                 Console.WriteLine($"The Weight You Entered is in Tonne {weightOutputInTonne}");
                 break;
+            case 'f':
+                continueCode = false;
+                break;
             default:
                 Console.WriteLine("Please Select From Given Options");
                 break;
@@ -102,9 +112,6 @@ do
     {
         Console.WriteLine("This is not a number!"); //Values If User Put An Elphabatic Value
     }
-
-    Console.Write("For More Conversion Hit 'y' and Enter....");
-    continueCode = Console.ReadLine();  //Value For ReStarting Code
 }
 
-while ((continueCode.ToLower()) == "y");
+while (continueCode);

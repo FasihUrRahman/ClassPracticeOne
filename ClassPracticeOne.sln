@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabPracticeTwo", "LabPracti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOddNumbers", "EvenOddNumbers\EvenOddNumbers.csproj", "{7DA752F1-87B4-408E-8DCD-7FD7A8147765}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeperateOddEvenAndPrimeNumbers", "SeperateOddEvenAndPrimeNumbers\SeperateOddEvenAndPrimeNumbers.csproj", "{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7DA752F1-87B4-408E-8DCD-7FD7A8147765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA752F1-87B4-408E-8DCD-7FD7A8147765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA752F1-87B4-408E-8DCD-7FD7A8147765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951D6C0A-09BE-4A6E-9B91-01E43D2CD605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
