@@ -69,6 +69,10 @@ static void CountChar(string stringValue)
     Console.WriteLine($"Special Charters in This String Is/Are \"{specialCharValue}\"\nAlphabetic Charters in This String Is/Are \"{alphabatValue}\"\nDigit Charters in This String Is/Are \"{digitValue}\"");
     Console.ReadLine();
 }
+
+
+
+//Functions
 //Reverse String
 static void ReverseString(string stringValue)
 {
