@@ -18,7 +18,15 @@ for (int i = 0; i < inputValue.Length; i++)
         Console.WriteLine($"{keywordToFind} is Available at {i}");
     }
 }
-
+//int i = 0;
+//while(i < inputValue.Length)
+//{
+//    if (inputValue.IndexOf(keywordToFind, i) == i)
+//    {
+//        Console.WriteLine($"{keywordToFind} is Available at {i}");
+//    }
+//    i++;
+//}
 
 //If The User Gives Both Values
 //if (keywordToFind != "" && inputValue != "")
