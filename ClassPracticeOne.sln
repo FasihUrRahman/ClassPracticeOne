@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListUsingIfElse", "ToDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountStringCharReverseStringCountVowelsString", "CountStringCharReverseStringCountVowelsString\CountStringCharReverseStringCountVowelsString.csproj", "{2DC655CB-BDC0-40E6-B727-383DDC398EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindKeyWordInParagraph", "FindKeyWordInParagraph\FindKeyWordInParagraph.csproj", "{66A0D3CE-801F-45A4-B439-3400BE1BAD2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindKeyWordInParagraph", "FindKeyWordInParagraph\FindKeyWordInParagraph.csproj", "{66A0D3CE-801F-45A4-B439-3400BE1BAD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableUesingDATETIME", "TimeTableUesingDATETIME\TimeTableUesingDATETIME.csproj", "{75F14120-8304-433A-B910-EA51ADAB9191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{66A0D3CE-801F-45A4-B439-3400BE1BAD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A0D3CE-801F-45A4-B439-3400BE1BAD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66A0D3CE-801F-45A4-B439-3400BE1BAD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F14120-8304-433A-B910-EA51ADAB9191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F14120-8304-433A-B910-EA51ADAB9191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F14120-8304-433A-B910-EA51ADAB9191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F14120-8304-433A-B910-EA51ADAB9191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
